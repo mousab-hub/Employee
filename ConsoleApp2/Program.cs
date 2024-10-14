@@ -17,6 +17,7 @@ namespace ConsoleApp2
         {
             public string EmployedName { get; set; }
 
+            public string EmployedEmail { get; set; }
             public double Salary { get; set; }
 
             public int PerformanceRating { get; set; }
@@ -31,6 +32,10 @@ namespace ConsoleApp2
 
         }
 
+        public void PrintMosuab()
+        {
+            Console.WriteLine("Hello Mosuab");
+        }
         public static bool UpdateEmployeSalary(clsEmployes Employes, double TheNewSalary)
         {
             int RowEffected = 0;
